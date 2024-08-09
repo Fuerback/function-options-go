@@ -1,6 +1,6 @@
-# Function Option Pattern in Golang
+# Functional Option Pattern in Golang
 
-The function option pattern in Golang helps to create a struct constructor with optional configuration parameters. This pattern is useful when you have a struct with many fields and you want to provide a way to set only the fields that you need.
+The functional option pattern in Golang helps to create a struct constructor with optional configuration parameters. This pattern is useful when you have a struct with many fields and you want to provide a way to set only the fields that you need.
 
 ## What is the problem that this pattern solves?
 
@@ -34,9 +34,9 @@ func main() {
 }
 ```
 
-## How does the function option pattern solve this problem?
+## How does the functional option pattern solve this problem?
 
-The function option pattern solves this problem by providing a way to set only the fields that you need. This pattern uses a function that takes a pointer to the struct and sets a field of the struct.
+The functional option pattern solves this problem by providing a way to set only the fields that you need. This pattern uses a function that takes a pointer to the struct and sets a field of the struct.
 
 See the example below and see the full code in the `main.go` file.:
 
