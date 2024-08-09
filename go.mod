@@ -1,3 +1,3 @@
-module github.com/Fuerback/function-options-go
+module github.com/Fuerback/functional-options-go
 
 go 1.22.6
